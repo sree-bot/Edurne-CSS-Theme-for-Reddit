@@ -24,7 +24,7 @@ body {position: relative; font-family: arial, helvetica, sans-serif;}
 #sr-more-link, #sr-header-area #RESShortcutsEditContainer, #sr-header-area #RESShortcutsRight, #sr-header-area #RESShortcutsLeft, #sr-header-area #RESShortcutsAdd, #sr-header-area #RESShortcutsTrash {background-color: #c6daed}
 #sr-header-area #RESShortcutsEditContainer, #sr-more-link {border-right:20px solid #c6daed; font-weight: bolder;}
 
-#header-bottom-right {right: 20px; background-color: #deeaf6}
+#header-bottom-right {right: 20px; background-color: #deeaf6;-moz-border-radius: 0px;-webkit-border-radius: 0px;-o-border-radius: 0px;-ms-border-radius: 0px;-khtml-border-radius: 0px;border-radius: 0px;}
 #header-bottom-right #userbarToggle { font-family: "Courier New", Courier, monospace; font-size:12px;}
 #header-bottom-right #userbarToggle { font-family: "Courier New", Courier, monospace; font-size:12px ;width: 14px;padding-right: 4px;-moz-border-radius-bottomleft: 0px;-moz-border-radius-bottomright: 0px;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;-webkit-border-bottom-left-radius: 0px;-webkit-border-bottom-right-radius: 0px;}
 
