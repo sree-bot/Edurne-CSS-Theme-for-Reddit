@@ -107,6 +107,11 @@ body {position: relative; font-family: arial, helvetica, sans-serif;}
 .link .midcol {margin-right: 10px;
 margin-left: 0px;}
 
+/*mobile friendly spoiler tags by /u/listen2*/
+a[href="#s"] {font-size: 0;visibility: hidden;cursor: default;display: inline-block}
+a[href="#s"]::after {content: attr(title);background: #cee3f8;color: #cee3f8;font-size: small;visibility: visible}
+a[href="#s"]:hover::after, a[href="#s"]:active::after {color: black;background: transparent;text-decoration: none;font-size: small;}
+
 /* CONTENT - COMMENTS */
 
 .commentarea {margin-top: 10px;}
