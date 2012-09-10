@@ -56,6 +56,7 @@ body {position: relative; font-family: arial, helvetica, sans-serif;}
 .morelink .nub, .morelink:hover .nub {background: url(%%sprites-04%%) 0px 0px no-repeat white;}
 .disabled .morelink a, .disabled .morelink a:hover {cursor: default;color: #AAA;}
 .morelink:hover {opacity: 0.9;}
+.disabled .morelink:hover {opacity: 1;}
 .sidebox.submit {position: absolute;top: 97px; width: 300px}
 #search {margin-top: 61px;}
 
