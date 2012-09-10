@@ -1,0 +1,114 @@
+#v2.5
+
+##### [](#e)
+> # [What this theme is for](#lightbulb)
+> This theme was made for two purposes: to make a subreddit more new-user-friendly, and to give more visibility to the submit button. 
+
+> It's for people who want a clean, custom CSS theme without having to play too much with code.
+
+> It is also useable in subreddits that are not in English, since there's no hacky CSS injected text.
+
+
+It's made up of a stylesheet and a sprite image.
+
+It uses  most of Reddit's default font sizes, colors, and the silk icons collection, the same Reddit uses in several places.
+
+The idea was to make a theme that doesn't clash with the frontpage, but tried to improve readability and general space division.
+
+####[](#e)
+> #[Currently used in:](#check)
+
+> * **/r/techsupport**
+
+> * **/r/bans**
+
+> * **/r/spain**
+
+> * **/r/es**
+
+> * **/r/FreewareIndex**
+
+*********************
+
+[GET THE THEME](http://www.reddit.com/r/edurne/comments/zid90/get_the_stylesheet_and_to_the_sprite_image_here/#btn)
+
+********************************
+
+********************************
+
+# How to use the sidebar code:
+
+> A normal blockquote has this gray box.
+
+> Any text that's continuously blockquoted shares the same box.
+
+*****************************
+
+> Separate blockquote groups with a horizontal line to make them different boxes.
+
+*****************************
+
+###### [](#e)
+> You can change a box's color by placing a specific empty header type right before making the blockquote.
+
+> To make this box **red**, an empty H6 element is used. The code looks like this:
+
+>`###### [](#e)`
+
+>`> This is a box.`
+
+********************************
+
+##### [](#e)
+> To make a **yellow** box, use an empty H5 element as we did before:
+
+>`##### [](#e)`
+
+>`> This is a box`
+
+********************************
+
+#### [](#e)
+> To make a **green** box, use an empty H4 element as we did before:
+
+>`#### [](#e)`
+
+>`> This is a box`
+
+
+*******************************
+
+> #This is a title
+> This box starts with an H1 element inside of it that serves as its header. Notice the indentation of all text contained in it.  
+
+> `> #This is a title`
+
+>`> This is a box`
+
+**************************
+
+###### [](#e)
+> #[Title with an icon](#exclamation)
+> This box also starts with an H1 element, but has an icon. The icon is added by linking the H1 element to a specific hash. In this case:  
+
+>`> #[Title with an icon](#exclamation)`
+
+>`> This is a box`
+
+> [A list of the icons available is available here](#nolink)
+
+
+Normal text can be added after a separating horizontal line, and it will appear as it normally would. To add a box after this, just start a new blockquote.
+
+**Remember**: horizontal lines are only needed when separating blockquote groups.
+
+
+> # [Final Notes](#information)
+> You can play around making boxes within boxes or adding any markup withing these blockquote boxes. 
+
+> #### [](#e)
+> > # [](#smile)
+> > * If you find any bugs or problems with this theme, be sure to ask here.
+> > * **I need to tweak font-sizes and padding to make these boxes more readable. Future versions may affect box styling!**
+
+You can find the exact code I used to make this sidebar [in this link](#nolink). 
