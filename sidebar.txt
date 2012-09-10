@@ -1,12 +1,16 @@
 #v2.5
 
 ##### [](#e)
-> # [What this theme is for](#lightbulb)
-> This theme was made for two purposes: to make a subreddit more new-user-friendly, and to give more visibility to the submit button. 
+> # [What is it?](#lightbulb)
+> This is a CSS theme to style subreddits. It was made for two purposes: to make a subreddit more new-user-friendly, and to give more visibility to the submit button. 
+
+> **************
 
 > It's for people who want a clean, custom CSS theme without having to play too much with code.
 
-> It is also useable in subreddits that are not in English, since there's no hacky CSS injected text.
+> **************
+
+> It is also ideal for subreddits that are not in English, since there's no hacky CSS injected text.
 
 
 It's made up of a stylesheet and a sprite image.
@@ -30,7 +34,7 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 
 *********************
 
-[GET THE THEME](https://github.com/rolmos/Edurne-CSS-Theme-for-Reddit/#btn)
+[Get the Theme from Github!](https://github.com/rolmos/Edurne-CSS-Theme-for-Reddit/#btn)
 
 ********************************
 
@@ -51,7 +55,7 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 ###### [](#e)
 > You can change a box's color by placing a specific empty header type right before making the blockquote.
 
-> To make this box **red**, an empty H6 element is used. The code looks like this:
+> To make this box **red**, an empty **H6** element is used. The code looks like this:
 
 >`###### [](#e)`
 
@@ -60,7 +64,7 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 ********************************
 
 ##### [](#e)
-> To make a **yellow** box, use an empty H5 element as we did before:
+> To make a **yellow** box, use an empty **H5** element as we did before:
 
 >`##### [](#e)`
 
@@ -69,7 +73,7 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 ********************************
 
 #### [](#e)
-> To make a **green** box, use an empty H4 element as we did before:
+> To make a **green** box, use an empty **H4** element as we did before:
 
 >`#### [](#e)`
 
