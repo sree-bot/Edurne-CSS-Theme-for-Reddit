@@ -99,7 +99,7 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 
 >`> This is a box`
 
-> [A list of the icons available is available here](#nolink)
+> [A list of the icons available is available here](http://www.reddit.com/r/edurne/comments/zo5e4/icons_list/)
 
 
 Normal text can be added after a separating horizontal line, and it will appear as it normally would. To add a box after this, just start a new blockquote.
