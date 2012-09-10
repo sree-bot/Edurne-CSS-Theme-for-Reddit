@@ -65,7 +65,7 @@ body {font-family: arial, helvetica, sans-serif;}
 .side blockquote h1 ~ p {margin-left: 21px;}
 .side blockquote+p, .side p+blockquote, .side p+h4,.side p+h5,.side p+h6 {margin-top: 15px;}
 
-.side blockquote h1 {font-size: 18px;}
+.side blockquote h1 {font-size: 16px;}
 .side blockquote h1 a{color:black;cursor: default;}
 
 .side blockquote h1 a[href*="#"]::before {display: inline-block;height: 16px;width: 16px;content: '';margin: 0px 5px -1px 0px;}
