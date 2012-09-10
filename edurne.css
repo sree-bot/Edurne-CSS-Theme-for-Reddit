@@ -1,9 +1,10 @@
 /* GENERAL */
 
-body {font-family: arial, helvetica, sans-serif;}
+body {position: relative; font-family: arial, helvetica, sans-serif;}
 
 .link .usertext .md, .usertext table.markhelp, .btn .login-form-side, .infobar, #search, #search input[type="text"], .link, #header-bottom-right #userbarToggle,.linkinfo, textarea, .rounded, .sidecontentbox .content  {-moz-border-radius: 2px;-webkit-border-radius: 2px;-o-border-radius: 2px;-ms-border-radius: 2px;-khtml-border-radius: 2px;border-radius: 2px;}
 
+/*buttons*/
 .btn, button, .side a[href*="/#btn"]{background-color: #449EF8;border: none;color: white;padding: 6px;margin: 5px 5px 5px 0px; cursor:pointer; font-size: 13px;font-family: arial,helvetica,sans-serif;}
 .btn a{color: white;}
 .btn:hover, button:hover, a[href*="/#btn"]:hover{opacity:0.9;}
@@ -34,6 +35,7 @@ body {font-family: arial, helvetica, sans-serif;}
 #search {border: 1px solid #eaeaea; padding:10px; margin-top:20px; background-color: #FAFAFA;}
 #search input[type="text"] {width: 265px;border: 1px solid #DBDADA;-moz-border-radius: 2px;-webkit-border-radius: 2px;-o-border-radius: 2px;-ms-border-radius: 2px;-khtml-border-radius: 2px;border-radius: 2px;font-size: 14px;font-style: italic;padding: 4px;}
 
+/**/
 .linkinfo {padding: 15px;border: none;background-color: #CEE3F8;}
 .titlebox {padding: 0px 10px;}
 .titlebox .bottom { display: none;}
@@ -44,6 +46,7 @@ body {font-family: arial, helvetica, sans-serif;}
 .sidecontentbox .content {border: 1px solid #EAEAEA;background-color: #FAFAFA; padding: 10px;}
 .icon-menu li {margin: 0px 0px 5px;}
 
+/*sidebar buttons*/
 .side a[href*="/#btn"]{text-align:center;width:100%;font-weight:normal;letter-spacing: 0px;line-height: 29px;display:block;}
 
 /*submit*/
@@ -61,6 +64,7 @@ body {font-family: arial, helvetica, sans-serif;}
 .side h6+blockquote {display: block;background-color: #FEF0F0;border: 1px solid #fcbcbc;}
 .side h5+blockquote {display: block;background-color: #FFFFE6;border: 1px solid #f4f225;}
 .side h4+blockquote {display: block;background-color: #E9FFE6;border: 1px solid #9ef886;}
+.side h4,h5,h6 {height: 0px;}
 
 .side blockquote h1 ~ p {margin-left: 21px;}
 .side blockquote+p, .side p+blockquote, .side p+h4,.side p+h5,.side p+h6 {margin-top: 15px;}
@@ -141,15 +145,12 @@ margin-left: 0px;}
 /************************OTHER******************************************/
 /* TECHSUPPORT SPECIFIC CODE*/
 
+/*flair*/
 .linkflair-solved .linkflairlabel, .entry .title .linkflair.linkflair-solved {color: #02C11D;border: 1px solid #02C11D;padding-left: 12px;background: url(%%sprites-04%%) no-repeat -90px 1px #f5f5f5;}
 .entry .title .linkflair.linkflair-solved{font-size: x-small;max-width: 10em;overflow: hidden;white-space: nowrap;}
-
 .flair-trusted{color: #CFB52B;border: 1px solid #CFB52B;padding-left: 12px;background: url(%%sprites-04%%) no-repeat -90px -10px #f5f5f5;font-size:10px;}
-
-
 .entry .buttons li a.flairselectbtn {font-weight: bold;color: green;}
 .entry .buttons li a.flairselectbtn:after {content: ' - mark as solved'}
-
 .flairoptionpane .linkflair a.title{display:none;}
 .flairselector li.flairsample-right {float:none;}
 .flairselector li.flairsample-right {text-align:center !important;}
