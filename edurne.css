@@ -44,7 +44,7 @@ body {font-family: arial, helvetica, sans-serif;}
 .sidecontentbox .content {border: 1px solid #EAEAEA;background-color: #FAFAFA; padding: 10px;}
 .icon-menu li {margin: 0px 0px 5px;}
 
-.side a[href*="/#btn"]{text-align:center;width:100%;font-weight:bold;letter-spacing: -1px;line-height: 29px;display:block;}
+.side a[href*="/#btn"]{text-align:center;width:100%;font-weight:normal;letter-spacing: 0px;line-height: 29px;display:block;}
 
 /*submit*/
 .morelink, .morelink:hover,.side a[href*="/#btn"] {background: #449EF8; border-color:#449EF8;}
