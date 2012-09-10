@@ -30,7 +30,7 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 
 *********************
 
-[GET THE THEME](http://www.reddit.com/r/edurne/comments/zid90/get_the_stylesheet_and_to_the_sprite_image_here/#btn)
+[GET THE THEME](https://github.com/rolmos/Edurne-CSS-Theme-for-Reddit/#btn)
 
 ********************************
 
@@ -111,4 +111,4 @@ Normal text can be added after a separating horizontal line, and it will appear 
 > > * If you find any bugs or problems with this theme, be sure to ask here.
 > > * **I need to tweak font-sizes and padding to make these boxes more readable. Future versions may affect box styling!**
 
-You can find the exact code I used to make this sidebar [in this link](#nolink). 
+You can find the exact code I used to make this sidebar [in Github](https://github.com/rolmos/Edurne-CSS-Theme-for-Reddit). 
