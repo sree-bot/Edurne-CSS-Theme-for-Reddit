@@ -7,7 +7,7 @@ body {position: relative; font-family: arial, helvetica, sans-serif;}
 /*buttons*/
 .btn, button, .side a[href*="/#btn"]{background-color: #449EF8;border: none;color: white;padding: 6px;margin: 5px 5px 5px 0px; cursor:pointer; font-size: 13px;font-family: arial,helvetica,sans-serif;}
 .btn a{color: white;}
-.btn:hover, button:hover, a[href*="/#btn"]:hover{opacity:0.9;}
+.btn:hover, button:hover, .side a[href*="/#btn"]:hover{background-color: #56a6f7;border-color: #56a6f7;}
 
 .md p {font-family: Verdana, arial, sans-serif;padding: 1px 0px;}
 
@@ -50,15 +50,16 @@ body {position: relative; font-family: arial, helvetica, sans-serif;}
 .side a[href*="/#btn"]{text-align:center;width:auto;font-weight:normal;letter-spacing: 0px;line-height: 29px;display:block;}
 
 /*submit*/
-.morelink, .morelink:hover, .side a[href*="/#btn"] {background: #449EF8; border-color:#449EF8;-moz-border-radius: 0px;-webkit-border-radius: 0px;-o-border-radius: 0px;-ms-border-radius: 0px;-khtml-border-radius: 0px;border-radius: 0px;}
-.side a[href*="/#btn"] {margin: 0px;}
-.morelink a, .morelink a:hover {color: white;font-family: Verdana, Arial, sans-serif;font-size:15px;}
-.morelink .nub, .morelink:hover .nub {background: url(%%sprites-04%%) 0px 0px no-repeat white;}
-.disabled .morelink a, .disabled .morelink a:hover {cursor: default;color: #AAA;}
-.morelink:hover {opacity: 0.9;}
-.disabled .morelink:hover {opacity: 1;}
 .sidebox.submit {position: absolute;top: 97px; width: 300px}
 #search {margin-top: 61px;}
+.morelink, .morelink:hover, .side a[href*="/#btn"] {font-weight:normal; letter-spacing: 0px;background: #449EF8; border-color:#449EF8;-moz-border-radius: 0px;-webkit-border-radius: 0px;-o-border-radius: 0px;-ms-border-radius: 0px;-khtml-border-radius: 0px;border-radius: 0px;}
+.side a[href*="/#btn"] {margin: 0px;}
+.morelink a, .morelink a:hover {color: white;font-family: Verdana, Arial, sans-serif;font-size:16px;}
+.morelink .nub, .morelink:hover .nub {background: url(%%sprites-05%%) 0px 0px no-repeat transparent;}
+.disabled .morelink a, .disabled .morelink a:hover {cursor: default;color: #AAA;}
+.morelink:hover {background-color: #56a6f7;border-color: #56a6f7;}
+.disabled .morelink, .disabled .morelink:hover {background:#f5f5f5;border-color: #f5f5f5;}
+.disabled .morelink .nub, .disabled .morelink:hover .nub {background: url(%%sprites-05%%) 0px 0px no-repeat transparent;}
 
 /*boxes*/
 .side .md {overflow: hidden;}
