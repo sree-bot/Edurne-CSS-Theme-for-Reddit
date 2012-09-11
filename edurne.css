@@ -373,6 +373,7 @@ body.res-nightmode .side h4+blockquote,body.res-nightmode .side h5+blockquote,bo
 .side blockquote h1 {
     font-size:16px;
     background-color: transparent !important;
+    margin-bottom: 15px;
 }
 body.res-nightmode .side blockquote h1, body.res-nightmode .side blockquote h1 a {
     color: #EEE !important;
