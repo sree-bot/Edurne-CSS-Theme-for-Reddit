@@ -13,7 +13,7 @@ body {
 }
 
 /*buttons*/
-.btn,button,.side a[href*='/#btn'] {
+.btn, button, .side a[href*='/#btn'] {
     background-color:#449EF8;
     border:none;
     color:#FFF;
@@ -22,6 +22,12 @@ body {
     cursor:pointer;
     font-size:13px;
     font-family:arial,helvetica,sans-serif;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    -o-border-radius:2px;
+    -ms-border-radius:2px;
+    -khtml-border-radius:2px;
+    border-radius:2px;
 }
 body.res-nightmode .btn, body.res-nightmode button, body.res-nightmode .side a[href*='/#btn'] {
     color: #444 !important;
@@ -273,12 +279,12 @@ body.res-nightmode .sidebox.submit:hover {
     letter-spacing:0;
     background:#449EF8;
     border-color:#449EF8;
-    -moz-border-radius:0;
-    -webkit-border-radius:0;
-    -o-border-radius:0;
-    -ms-border-radius:0;
-    -khtml-border-radius:0;
-    border-radius:0;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    -o-border-radius:2px;
+    -ms-border-radius:2px;
+    -khtml-border-radius:2px;
+    border-radius:2px;
 }
 .side a[href*='/#btn'] {
     margin:0;
