@@ -50,9 +50,6 @@ body.res-nightmode .btn:hover, body.res-nightmode button:hover, body.res-nightmo
 body.res-nightmode #header { 
     border-color: #DDF;
 }
-body.res-nightmode #header-bottom-left {
-    background-color: #555656 !important;
-}
 #sr-header-area {
     background-color:#c6daed;
     text-transform:lowercase;
@@ -336,29 +333,30 @@ body.res-nightmode .side hr {
 .side h6+blockquote {
     display:block;
     background-color:#FEF0F0;
-    border:1px solid #fcbcbc;
+    border:1px solid #FF9185;
 }
 .side h5+blockquote {
     display:block;
     background-color:#FFFFE6;
-    border:1px solid #f4f225;
+    border:1px solid #F4F225;
 }
 .side h4+blockquote {
     display:block;
     background-color:#E9FFE6;
-    border:1px solid #9ef886;
+    border:1px solid #9EF886;
+}
+
+body.res-nightmode .side h4+blockquote,body.res-nightmode .side h5+blockquote,body.res-nightmode .side h6+blockquote{
+	background-color: #111;
 }
 .side h6+blockquote p, .side h5+blockquote p, .side h4+blockquote p {
-    color: #000 !important;
+    color: #000;
 }
 .side h6+blockquote a, .side h5+blockquote a, .side h4+blockquote a {
-    color: #369 !important;
+    color: #369;
 }
 .side blockquote pre, .side blockquote code {
     color: #222 !important;
-}
-.side blockquote li {
-    color: #000 !Important;
 }
 .side h4, .side h5, .side h6 {
     height:0;
@@ -378,10 +376,6 @@ body.res-nightmode .side hr {
 }
 body.res-nightmode .side blockquote h1, body.res-nightmode .side blockquote h1 a {
     color: #EEE !important;
-}
-body.res-nightmode .side h6+blockquote h1, body.res-nightmode .side h5+blockquote h1, body.res-nightmode .side h4+blockquote h1,
-body.res-nightmode .side h6+blockquote h1 a, body.res-nightmode .side h5+blockquote h1 a, body.res-nightmode .side h4+blockquote h1 a {
-    color: #000 !important;
 }
 .side blockquote h1 a {
     color:#000 !important;
