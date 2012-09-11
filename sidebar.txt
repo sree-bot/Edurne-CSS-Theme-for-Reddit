@@ -1,4 +1,4 @@
-#v2.5
+#v3
 
 ##### [](#e)
 > # [What is it?](#lightbulb)
@@ -31,6 +31,8 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 > * **/r/es**
 
 > * **/r/FreewareIndex**
+
+> * **/r/vaultshow**
 
 *********************
 
