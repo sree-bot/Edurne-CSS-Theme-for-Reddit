@@ -405,6 +405,26 @@ body.res-nightmode .side blockquote h1, body.res-nightmode .side blockquote h1 a
 .side blockquote h1 a[href='#smile']::before         {background-position: -54px -89px;}
 .side blockquote h1 a[href='#unhappy']::before    {background-position: -73px -89px;}
 
+body.res-nightmode .login-form-side {
+    background-color: #111 !important;
+    color: #DDD !important;
+    border: 1px solid #DDD !important;
+}
+body.res-nightmode .login-form-side #remember-me label {
+    color: #DDD !important;
+}
+body.res-nightmode .login-form-side #remember-me input {
+    width: auto !important;
+    margin-left: 6px;
+}
+body.res-nightmode .side .login-form-side .submit {
+    padding: 4px;
+    background-color: transparent;
+}
+body.res-nightmode .side .login-form-side .submit .btn {
+    margin: auto;
+}
+
 /* CONTENT */
 .sitetable {
     font-family:verdana, arial, helvetica, sans-serif;
@@ -416,6 +436,10 @@ body.res-nightmode .side blockquote h1, body.res-nightmode .side blockquote h1 a
 .content {
     margin:20px 0 0 20px;
 }
+.entry {
+    padding: 2px;
+}
+
 .link {
     overflow:hidden;
     margin:0 20px 0 0;
@@ -601,7 +625,7 @@ body.res-nightmode .usertext .help-toggle a {
 /* MODERATOR */
 #subreddit_stylesheet {
     display: block;
-    width: 700px;
+    overflow:hidden;
 }
 .sheets {
     margin:0;
