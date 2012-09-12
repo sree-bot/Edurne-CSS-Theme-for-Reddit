@@ -168,6 +168,7 @@ body.res-nightmode #header-bottom-right {
 }
 
 /* SIDEBAR */
+
 /*search*/
 .side {
     margin:0 20px;
@@ -211,7 +212,7 @@ body.res-nightmode .side .redditname a {
 .titlebox .bottom {
     display:none;
 }
-.titlebox > h1 {
+.side .titlebox > h1 {
     font-size:34px;
 }
 .sidebox .spacer,.sidebox.create {
@@ -227,6 +228,29 @@ body.res-nightmode .side .redditname a {
 }
 .icon-menu li {
     margin:0 0 5px;
+}
+.side h1 {font-size: 19px;}
+.side h2 {font-size: 16px;}
+.side h3 {font-size: 14px;}
+
+body.res-nightmode .login-form-side {
+    background-color: #111 !important;
+    color: #DDD !important;
+    border: 1px solid #DDD !important;
+}
+body.res-nightmode .login-form-side #remember-me label {
+    color: #DDD !important;
+}
+body.res-nightmode .login-form-side #remember-me input {
+    width: auto !important;
+    margin-left: 6px;
+}
+body.res-nightmode .side .login-form-side .submit {
+    padding: 4px;
+    background-color: transparent;
+}
+body.res-nightmode .side .login-form-side .submit .btn {
+    margin: auto;
 }
 
 /*sidebar buttons*/
@@ -289,7 +313,7 @@ body.res-nightmode .sidebox.submit:hover {
     border-radius:2px;
 }
 .side a[href*='/#btn'] {
-    margin:0;
+    margin:10px 0px;
 }
 .morelink a,.morelink a:hover {
     color:#FFF;
@@ -383,60 +407,44 @@ body.res-nightmode .side h4+blockquote,body.res-nightmode .side h5+blockquote,bo
     margin-top:15px;
 }
 .side blockquote h1 {
-    font-size:16px;
     background-color: transparent !important;
     margin-bottom: 15px;
 }
 body.res-nightmode .side blockquote h1, body.res-nightmode .side blockquote h1 a {
     color: #EEE !important;
 }
-.side blockquote h1 a {
+
+/*sidebar icons*/
+.side a[href*='#icon-'] {
     color:#000 !important;
     cursor:default;
 }
-.side blockquote h1 a[href*='#']::before {
+.side a[href*='#icon-']:hover{
+    text-decoration:none;
+}
+.side a[href*='#icon-']::before {
     display:inline-block;
     height:16px; width:16px;
     content:'';
     margin:0 5px -1px 0;
     background: url(%%sprites-05%%) 30px 30px no-repeat;
 }
-.side blockquote h1 a[href='#exclamation']::before  {background-position: -16px -32px;}
-.side blockquote h1 a[href='#bell']::before             {background-position: -35px -32px;}
-.side blockquote h1 a[href='#error']::before           {background-position: -54px -32px;}
-.side blockquote h1 a[href='#star']::before            {background-position: -73px -32px;}
-.side blockquote h1 a[href='#lightbulb']::before      {background-position: -16px -51px;}
-.side blockquote h1 a[href='#clock']::before          {background-position: -35px -51px;}
-.side blockquote h1 a[href='#information']::before  {background-position: -54px -51px;}
-.side blockquote h1 a[href='#check']::before         {background-position: -73px -51px;}
-.side blockquote h1 a[href='#help']::before           {background-position: -16px -70px;}
-.side blockquote h1 a[href='#cross']::before         {background-position: -35px -70px;}
-.side blockquote h1 a[href='#note']::before          {background-position: -54px -70px;}
-.side blockquote h1 a[href='#time']::before          {background-position: -73px -70px;}
-.side blockquote h1 a[href='#eye']::before           {background-position: -16px -89px;}
-.side blockquote h1 a[href='#comments']::before  {background-position: -35px -89px;}
-.side blockquote h1 a[href='#smile']::before         {background-position: -54px -89px;}
-.side blockquote h1 a[href='#unhappy']::before    {background-position: -73px -89px;}
-
-body.res-nightmode .login-form-side {
-    background-color: #111 !important;
-    color: #DDD !important;
-    border: 1px solid #DDD !important;
-}
-body.res-nightmode .login-form-side #remember-me label {
-    color: #DDD !important;
-}
-body.res-nightmode .login-form-side #remember-me input {
-    width: auto !important;
-    margin-left: 6px;
-}
-body.res-nightmode .side .login-form-side .submit {
-    padding: 4px;
-    background-color: transparent;
-}
-body.res-nightmode .side .login-form-side .submit .btn {
-    margin: auto;
-}
+.side a[href='#icon-exclamation']::before  {background-position: -16px -32px;}
+.side a[href='#icon-bell']::before         {background-position: -35px -32px;}
+.side a[href='#icon-error']::before        {background-position: -54px -32px;}
+.side a[href='#icon-star']::before         {background-position: -73px -32px;}
+.side a[href='#icon-lightbulb']::before    {background-position: -16px -51px;}
+.side a[href='#icon-clock']::before        {background-position: -35px -51px;}
+.side a[href='#icon-information']::before  {background-position: -54px -51px;}
+.side a[href='#icon-check']::before        {background-position: -73px -51px;}
+.side a[href='#icon-help']::before         {background-position: -16px -70px;}
+.side a[href='#icon-cross']::before        {background-position: -35px -70px;}
+.side a[href='#icon-note']::before         {background-position: -54px -70px;}
+.side a[href='#icon-time']::before         {background-position: -73px -70px;}
+.side a[href='#icon-eye']::before          {background-position: -16px -89px;}
+.side a[href='#icon-comments']::before     {background-position: -35px -89px;}
+.side a[href='#icon-smile']::before        {background-position: -54px -89px;}
+.side a[href='#icon-unhappy']::before      {background-position: -73px -89px;}
 
 /* CONTENT */
 .sitetable {
