@@ -125,10 +125,6 @@ body.res-nightmode #sr-header-area, body.res-nightmode #sr-more-link {
     border-right:20px solid #c6daed;
     font-weight:bolder;
 }
-#header-bottom-left {
-    overflow: hidden;
-    height: 55px;
-}
 #header-bottom-right {
     right:20px;
     background-color:#deeaf6;
