@@ -170,7 +170,7 @@ body.res-nightmode #header-bottom-right {
 .side {
     margin:0 20px;
 }
-#search {
+.side #search {
     border:1px solid #eaeaea;
     padding:10px;
     margin-top:20px;
@@ -271,7 +271,7 @@ body.res-nightmode .sidebox.submit:hover {
  body.res-nightmode .sidebox.submit:hover .nub {
     border-left-color: #444;
 }
-#search {
+.side #search {
     margin-top:61px;
 }
 .morelink,.morelink:hover,.side a[href*='/#btn'] {
