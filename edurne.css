@@ -632,6 +632,7 @@ body.res-nightmode .usertext .help-toggle a {
     border-radius:2px;
     font-size:11px;
     color: #222 !important;
+    overflow: scroll;
 }
 .usertext-body code {
     color: #222 !important;
