@@ -3,6 +3,8 @@ body {
     position:relative;
     font-family:arial, helvetica, sans-serif;
 }
+body > .content {overflow:hidden;
+}
 .link .usertext .md,.usertext table.markhelp,.btn .login-form-side,.infobar,#search,#search input[type=text],.link,#header-bottom-right #userbarToggle,.linkinfo,textarea,.rounded,.sidecontentbox .content {
     -moz-border-radius:2px;
     -webkit-border-radius:2px;
@@ -453,7 +455,7 @@ body.res-nightmode .side .login-form-side .submit .btn {
 
 .link {
     overflow:hidden;
-    margin:0 20px 0 0;
+    margin:0px;
     padding:5px;
     border:1px solid #EAEAEA;
     background-color:#FAFAFA;
