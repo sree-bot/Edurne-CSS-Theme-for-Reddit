@@ -1,7 +1,7 @@
-#v3
+#v4
 
 ##### [](#e)
-> # [What is it?](#lightbulb)
+> # [What is it?](#icon-lightbulb)
 > This is a CSS theme to style subreddits. It was made for two purposes: to make a subreddit more new-user-friendly, and to give more visibility to the submit button. 
 
 > **************
@@ -20,7 +20,7 @@ It uses  most of Reddit's default font sizes, colors, and the silk icons collect
 The idea was to make a theme that doesn't clash with the frontpage, but tried to improve readability and general space division.
 
 ####[](#e)
-> #[Currently used in:](#check)
+> ##[Currently used in:](#icon-check)
 
 > * **/r/techsupport**
 
@@ -94,10 +94,10 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 **************************
 
 ###### [](#e)
-> #[Title with an icon](#exclamation)
-> This box also starts with an H1 element, but has an icon. The icon is added by linking the H1 element to a specific hash. In this case:  
+> #[Title with an icon](#icon-exclamation)
+> This box starts with an H2 element, and has an icon. The icon is added to left of any sidebar element by linking it to a specific code:  
 
->`> #[Title with an icon](#exclamation)`
+>`> ##[Title with an icon](#icon-exclamation)`
 
 >`> This is a box`
 
@@ -109,12 +109,12 @@ Normal text can be added after a separating horizontal line, and it will appear 
 **Remember**: horizontal lines are only needed when separating blockquote groups.
 
 
-> # [Final Notes](#information)
+> # [Final Notes](#icon-information)
 > You can play around making boxes within boxes or adding any markup withing these blockquote boxes. 
 
 > #### [](#e)
-> > # [](#smile)
+> > ##[Contribute!](#icon-smile)
 > > * If you find any bugs or problems with this theme, be sure to ask here.
-> > * **I need to tweak font-sizes and padding to make these boxes more readable. Future versions may affect box styling!**
+> > * I'll soon set up an integrated Wiki page to make setting it all up easier to understand.
 
 You can find the exact code I used to make this sidebar [in Github](https://github.com/rolmos/Edurne-CSS-Theme-for-Reddit). 
