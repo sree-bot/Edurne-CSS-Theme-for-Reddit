@@ -1,4 +1,4 @@
-/* ==Edurne Reddit CSS Theme-(http://www.reddit.com/r/edurne/)==*/
+/* ==Edurne Reddit CSS Theme v5.1-(http://www.reddit.com/r/edurne/)==*/
 
 /* GENERAL */
 body { position:relative; font-family:arial, helvetica, sans-serif; }
@@ -114,7 +114,7 @@ body.res-nightmode .side .redditname a { color: #DDD !important; }
 .linkinfo .score .word,.linkinfo .score .number { font-size:15px; }
 .sidecontentbox .content { border:1px solid #EAEAEA; background-color:#FAFAFA; padding:10px; }
 .icon-menu li { margin:0 0 5px; }
-.side h1, .side h2, .side h3 {color: #000;}
+.side h1, .side h2, .side h3 {color: #222;}
 .side h1 {font-size: 19px;}
 .side h2 {font-size: 16px;}
 .side h3 {font-size: 14px;}
@@ -258,8 +258,9 @@ body.res-nightmode .usertext .help-toggle a { color:#444 !important; }
 /* lists */
 .md > ul, .md > ol { border-left: 4px solid #ccc; max-width: 300px; }
 .md ul, .md ol {
+	margin: 10px 0px;
     padding: 6px;
-    list-style: none;
+    list-style: disc inside;
     background-color: #fff;
     -moz-border-radius:2px;
     -webkit-border-radius:2px;
