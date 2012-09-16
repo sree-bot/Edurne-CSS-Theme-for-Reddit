@@ -1,3 +1,5 @@
+/* ==Edurne Reddit CSS Theme-(http://www.reddit.com/r/edurne/)==*/
+
 /* GENERAL */
 body { position:relative; font-family:arial, helvetica, sans-serif; }
 body > .content { overflow:hidden; }
@@ -112,6 +114,7 @@ body.res-nightmode .side .redditname a { color: #DDD !important; }
 .linkinfo .score .word,.linkinfo .score .number { font-size:15px; }
 .sidecontentbox .content { border:1px solid #EAEAEA; background-color:#FAFAFA; padding:10px; }
 .icon-menu li { margin:0 0 5px; }
+.side h1, .side h2, .side h3 {color: #000;}
 .side h1 {font-size: 19px;}
 .side h2 {font-size: 16px;}
 .side h3 {font-size: 14px;}
@@ -467,4 +470,4 @@ body.res-nightmode a[href='#s']:hover::after, body.res-nightmode a[href='#s']:ac
 .side a[href='#icon-bell']::before        {background-position: -35px -32px;}
 .side a[href='#icon-eye']::before         {background-position: -16px -89px;}
 
-/* SUBREDDIT-SPECIFIC STYLES */
+/* SUBREDDIT-SPECIFIC STYLES - add you own styles below without modifying the code above.*/
