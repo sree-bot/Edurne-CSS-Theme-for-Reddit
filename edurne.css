@@ -1,4 +1,4 @@
-/* ==Edurne Reddit CSS Theme v5.1-(http://www.reddit.com/r/edurne/)==*/
+/* ==Edurne Reddit CSS Theme v5.1.1-(http://www.reddit.com/r/edurne/)== */
 
 /* GENERAL */
 body { position:relative; font-family:arial, helvetica, sans-serif; }
@@ -258,9 +258,8 @@ body.res-nightmode .usertext .help-toggle a { color:#444 !important; }
 /* lists */
 .md > ul, .md > ol { border-left: 4px solid #ccc; max-width: 300px; }
 .md ul, .md ol {
-	margin: 10px 0px;
+    margin: 10px 0px;
     padding: 6px;
-    list-style: disc inside;
     background-color: #fff;
     -moz-border-radius:2px;
     -webkit-border-radius:2px;
@@ -268,6 +267,7 @@ body.res-nightmode .usertext .help-toggle a { color:#444 !important; }
     -ms-border-radius:2px;
     -khtml-border-radius:2px;
     border-radius:2px;
+    list-style: none;
     
 }
 .md ul li, .md ol li {
@@ -281,10 +281,16 @@ body.res-nightmode .usertext .help-toggle a { color:#444 !important; }
 }
 .md ul li ul, .md ol li ol { margin: 8px 4px; }
 .md ul li:nth-child(odd), .md ol li:nth-child(odd) { background-color: #f6f6f6; }
-.md ol { counter-reset: inc 0; }
-.md ol li:before {
+.md ol, .md ul { counter-reset: inc 0; }
+.md ol li::before {
     counter-increment: inc 1;
     content: counter(inc, decimal) '. ';
+    margin-right: 4px;
+    color: #999;
+}
+.md ul li::before {
+    counter-increment: inc 1;
+    content: counter(inc, disc);
     margin-right: 4px;
     color: #999;
 }
