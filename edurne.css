@@ -171,7 +171,7 @@ body.res-nightmode .sidebox.submit:hover { background-color: #444 !important; }
 /* CONTENT */
 
 /* main content */
-.sitetable { font-family:verdana, arial, helvetica, sans-serif; }
+.sitetable { font-family:verdana, arial, helvetica, sans-serif; clear:left; }
 .infobar { overflow:hidden; margin:0 0 10px; }
 .content { margin:20px 0 0 20px; }
 .entry { padding: 2px; }
