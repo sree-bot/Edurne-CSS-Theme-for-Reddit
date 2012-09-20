@@ -270,7 +270,9 @@ body.res-nightmode .usertext .help-toggle a { color:#444 !important; }
 }
 .md ul {
 		    list-style: disc inside;
-
+}
+.md ol {
+	list-style: none;
 }
 .md ul li, .md ol li {
 	    padding: 4px 8px;
