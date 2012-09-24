@@ -1,9 +1,10 @@
-/* ==Edurne Reddit CSS Theme v5.1.3 - (http://www.reddit.com/r/edurne/)== */
+/* ==Edurne Reddit CSS Theme v5.1.5 - (http://www.reddit.com/r/edurne/)== */
 
 /* GENERAL */
 body { position:relative; font-family:arial, helvetica, sans-serif; }
 body > .content { overflow:hidden; }
 .md p { font-family:Verdana, arial, sans-serif; padding:1px 0; }
+
 .link .usertext .md,.usertext table.markhelp,.btn .login-form-side,.infobar,#search,#search input[type=text],
 .link,#header-bottom-right #userbarToggle,.linkinfo,textarea,.rounded,.sidecontentbox .content {
     -moz-border-radius:2px;
@@ -22,6 +23,7 @@ body > .content { overflow:hidden; }
     font-size:100%;
     font-family:Verdana, arial, sans-serif;
 }
+
 #sr-header-area a { color:#54708b; }
 body.res-nightmode #header { border-color: #DDF; }
 .tabmenu { font-size:11px; }
@@ -41,6 +43,7 @@ body.res-nightmode .pagename a { font-size: 18px !important; }
 #header #sr-header-area #RESShortcutsAdd, #header #sr-header-area #RESShortcutsTrash { background-color:#c6daed; }
 body.res-nightmode #sr-header-area, body.res-nightmode #sr-more-link { background-color: #c6daed !important; }
 #sr-header-area #RESShortcutsEditContainer, #sr-more-link { border-right:20px solid #c6daed; font-weight:bolder; }
+
 #header-bottom-right {
     right:20px;
     background-color:#deeaf6;
@@ -53,6 +56,7 @@ body.res-nightmode #sr-header-area, body.res-nightmode #sr-more-link { backgroun
 }
 body.res-nightmode #header-bottom-right { background-color: #DEEAF6 !important; }
 #header-bottom-right.res-navTop { top: 21px !important; }
+
 #header-bottom-right.res-navTop #userbarToggle {
     -moz-border-radius-topleft: 0;
     -webkit-border-top-left-radius: 0;
@@ -118,11 +122,13 @@ body.res-nightmode .side .redditname a { color: #DDD !important; }
 .side h1 {font-size: 19px;}
 .side h2 {font-size: 16px;}
 .side h3 {font-size: 14px;}
+
 body.res-nightmode .login-form-side {
     background-color: #111 !important;
     color: #DDD !important;
     border: 1px solid #DDD !important;
 }
+
 body.res-nightmode .login-form-side #remember-me label { color: #DDD !important; }
 body.res-nightmode .login-form-side #remember-me input { width: auto !important; margin-left: 6px; }
 body.res-nightmode .side .login-form-side .submit { padding: 4px; background-color: transparent; }
@@ -132,6 +138,7 @@ body.res-nightmode .side .login-form-side .submit .btn { margin: auto; }
 .sidebox.submit { position:absolute; top:95px; width:300px; }
 body.res-nightmode .sidebox { padding-left: 0 !important; }
 body.res-nightmode .sidebox.submit { background-image: none !important; }
+
 body.res-nightmode .sidebox.submit .nub {
     height: 3px;
     width: 2px;
@@ -147,8 +154,9 @@ body.res-nightmode .sidebox, body.res-nightmode .subredditbox, body.res-nightmod
 }
 body.res-nightmode .sidebox.submit .morelink a { color: #DDD !important; }
 body.res-nightmode .sidebox.submit:hover { background-color: #444 !important; }
- body.res-nightmode .sidebox.submit:hover .nub { border-left-color: #444; }
+body.res-nightmode .sidebox.submit:hover .nub { border-left-color: #444; }
 .side #search { margin-top:61px; }
+
 .morelink,.morelink:hover,.side a[href*='/#btn'] {
     font-weight:normal;
     letter-spacing:0;
@@ -161,6 +169,7 @@ body.res-nightmode .sidebox.submit:hover { background-color: #444 !important; }
     -khtml-border-radius:2px;
     border-radius:2px;
 }
+
 .morelink a,.morelink a:hover { color:#FFF; font-family:Verdana, Arial, sans-serif; font-size:16px; }
 .morelink .nub,.morelink:hover .nub { background:url(%%sprites-05%%) 0 0 no-repeat transparent; }
 .disabled .morelink a,.disabled .morelink a:hover { cursor:default; color:#AAA; }
@@ -175,6 +184,7 @@ body.res-nightmode .sidebox.submit:hover { background-color: #444 !important; }
 .infobar { overflow:hidden; margin:0 0 10px; }
 .content { margin:20px 0 0 20px; }
 .entry { padding: 2px; }
+
 .link {
     overflow:hidden;
     margin:0px;
@@ -195,6 +205,7 @@ body.res-nightmode .midcol {
     background-color: #222 !important;
     padding: 4px;
 }
+
 .link .rank { display:none; }
 .link.last-clicked { border:1px dashed #EAEAEA; }
 body.res-nightmode .link.last-clicked { border-color: #666; }
@@ -221,6 +232,7 @@ body.res-nightmode .usertext .help-toggle a { color:#444 !important; }
 .usertext table.markhelp { width:450px; font-size:11px; }
 .link .usertext .md { background-color:#FFF; border:1px solid #EAEAEA; }
 .entry .buttons li a { font-family:verdana, arial, sans-serif; }
+
 .usertext .help-toggle {
     background-color:#999;
     border:none;
@@ -236,6 +248,7 @@ body.res-nightmode .usertext .help-toggle a { color:#444 !important; }
 .stylesheet-customize-container { width: 100%; }
 #subreddit_stylesheet { display: block; overflow: hidden; padding-right: 80px; }
 .sheets { margin: 0; }
+
 #stylesheet_contents {
     font-family: Consolas, Monaco, monospace;
     padding: 12px;
@@ -267,6 +280,7 @@ body:not(.res-nightmode) .md table tbody { color: #444; }
 /* lists */
 .md > ul, .md > ol { border-left: 4px solid #ccc; max-width: 300px; }
 body.res-nightmode .md > ul, body.res-nightmode .md > ol { border-color: #666; }
+
 .md ul, .md ol {
     margin: 10px 0px;
     padding: 6px;
@@ -278,9 +292,11 @@ body.res-nightmode .md > ul, body.res-nightmode .md > ol { border-color: #666; }
     -khtml-border-radius:2px;
     border-radius:2px;
 }
+
 body.res-nightmode .md ul, body.res-nightmode .md ol { background-color: #444; }
 .md ul { list-style: disc inside; }
 .md ol { list-style: none; }
+
 .md ul li, .md ol li {
     padding: 4px 8px;
     -moz-border-radius:2px;
@@ -290,10 +306,12 @@ body.res-nightmode .md ul, body.res-nightmode .md ol { background-color: #444; }
     -khtml-border-radius:2px;
     border-radius:2px;
 }
+
 .md ul li ul, .md ol li ol { margin: 8px 4px; }
 .md ul li:nth-child(odd), .md ol li:nth-child(odd) { background-color: #f6f6f6; }
 body.res-nightmode .md ul li:nth-child(odd), body.res-nightmode .md ol li:nth-child(odd) { background-color: #222; }
 .md ol { counter-reset: inc 0; }
+
 .md ol li:before {
     counter-increment: inc 1;
     content: counter(inc, decimal) '. ';
@@ -402,6 +420,7 @@ body.res-nightmode .md h6 + ul li:nth-child(odd), body.res-nightmode .md h6 + ol
     line-height: 29px;
     margin:10px 0px;
 }
+
 body.res-nightmode .btn, body.res-nightmode button, 
 body.res-nightmode .side a[href*='/#btn'] { color: #444 !important; background-color: #CCC !important; }
 .btn a { color:#FFF; }
@@ -483,21 +502,22 @@ body.res-nightmode a[href='#s']:hover::after, body.res-nightmode a[href='#s']:ac
     margin:0 5px -1px 0;
     background: url(%%sprites-05%%) 30px 30px no-repeat;
 }
-.side a[href='#icon-exclamation']::before{background-position: -16px -32px;}
-.side a[href='#icon-information']::before{background-position: -54px -51px;}
-.side a[href='#icon-lightbulb']::before{background-position: -16px -51px;}
-.side a[href='#icon-comments']::before{background-position: -35px -89px;}
-.side a[href='#icon-unhappy']::before{background-position: -73px -89px;}
-.side a[href='#icon-check']::before{background-position: -73px -51px;}
-.side a[href='#icon-clock']::before{background-position: -35px -51px;}
-.side a[href='#icon-cross']::before{background-position: -35px -70px;}
-.side a[href='#icon-smile']::before{background-position: -54px -89px;}
-.side a[href='#icon-error']::before{background-position: -54px -32px;}
-.side a[href='#icon-note']::before{background-position: -54px -70px;}
-.side a[href='#icon-star']::before{background-position: -73px -32px;}
-.side a[href='#icon-help']::before{background-position: -16px -70px;}
-.side a[href='#icon-time']::before{background-position: -73px -70px;}
-.side a[href='#icon-bell']::before{background-position: -35px -32px;}
-.side a[href='#icon-eye']::before{background-position: -16px -89px;}
+
+.side a[href='#icon-exclamation']::before   {background-position: -16px -32px;}
+.side a[href='#icon-information']::before   {background-position: -54px -51px;}
+.side a[href='#icon-lightbulb']::before     {background-position: -16px -51px;}
+.side a[href='#icon-comments']::before      {background-position: -35px -89px;}
+.side a[href='#icon-unhappy']::before       {background-position: -73px -89px;}
+.side a[href='#icon-check']::before         {background-position: -73px -51px;}
+.side a[href='#icon-clock']::before         {background-position: -35px -51px;}
+.side a[href='#icon-cross']::before         {background-position: -35px -70px;}
+.side a[href='#icon-smile']::before         {background-position: -54px -89px;}
+.side a[href='#icon-error']::before         {background-position: -54px -32px;}
+.side a[href='#icon-note']::before          {background-position: -54px -70px;}
+.side a[href='#icon-star']::before          {background-position: -73px -32px;}
+.side a[href='#icon-help']::before          {background-position: -16px -70px;}
+.side a[href='#icon-time']::before          {background-position: -73px -70px;}
+.side a[href='#icon-bell']::before          {background-position: -35px -32px;}
+.side a[href='#icon-eye']::before           {background-position: -16px -89px;}
 
 /* SUBREDDIT-SPECIFIC STYLES - add you own styles below without modifying the code above.*/
