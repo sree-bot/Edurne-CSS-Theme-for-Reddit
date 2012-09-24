@@ -1,4 +1,4 @@
-/* ==Edurne Reddit CSS Theme v5.1.2-(http://www.reddit.com/r/edurne/)==*/
+/* ==Edurne Reddit CSS Theme v5.1.3 - (http://www.reddit.com/r/edurne/)== */
 
 /* GENERAL */
 body { position:relative; font-family:arial, helvetica, sans-serif; }
@@ -6,21 +6,21 @@ body > .content { overflow:hidden; }
 .md p { font-family:Verdana, arial, sans-serif; padding:1px 0; }
 .link .usertext .md,.usertext table.markhelp,.btn .login-form-side,.infobar,#search,#search input[type=text],
 .link,#header-bottom-right #userbarToggle,.linkinfo,textarea,.rounded,.sidecontentbox .content {
-	    -moz-border-radius:2px;
-	    -webkit-border-radius:2px;
-	    -o-border-radius:2px;
-	    -ms-border-radius:2px;
-	    -khtml-border-radius:2px;
-	    border-radius:2px;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    -o-border-radius:2px;
+    -ms-border-radius:2px;
+    -khtml-border-radius:2px;
+    border-radius:2px;
 }
 
 /* HEADER */
 #sr-header-area {
-	    background-color:#c6daed;
-	    text-transform:lowercase;
-	    border-bottom:3px solid #c2d6e9;
-	    font-size:100%;
-	    font-family:Verdana, arial, sans-serif;
+    background-color:#c6daed;
+    text-transform:lowercase;
+    border-bottom:3px solid #c2d6e9;
+    font-size:100%;
+    font-family:Verdana, arial, sans-serif;
 }
 #sr-header-area a { color:#54708b; }
 body.res-nightmode #header { border-color: #DDF; }
@@ -42,64 +42,64 @@ body.res-nightmode .pagename a { font-size: 18px !important; }
 body.res-nightmode #sr-header-area, body.res-nightmode #sr-more-link { background-color: #c6daed !important; }
 #sr-header-area #RESShortcutsEditContainer, #sr-more-link { border-right:20px solid #c6daed; font-weight:bolder; }
 #header-bottom-right {
-	    right:20px;
-	    background-color:#deeaf6;
-	    -moz-border-radius:0;
-	    -webkit-border-radius:0;
-	    -o-border-radius:0;
-	    -ms-border-radius:0;
-	    -khtml-border-radius:0;
-	    border-radius:0;
+    right:20px;
+    background-color:#deeaf6;
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    -o-border-radius:0;
+    -ms-border-radius:0;
+    -khtml-border-radius:0;
+    border-radius:0;
 }
 body.res-nightmode #header-bottom-right { background-color: #DEEAF6 !important; }
 #header-bottom-right.res-navTop { top: 21px !important; }
 #header-bottom-right.res-navTop #userbarToggle {
-	    -moz-border-radius-topleft: 0;
-	    -webkit-border-top-left-radius: 0;
-	    border-top-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
 }
 #header-bottom-right #userbarToggle {
-	    font-family:"Courier New", Courier, monospace;
-	    font-size:12px;
+    font-family:"Courier New", Courier, monospace;
+    font-size:12px;
 }
 #header-bottom-right #userbarToggle {
-	    font-family:"Courier New", Courier, monospace;
-	    font-size:12px;
-	    width:14px;
-	    padding-right:4px;
-	    -moz-border-radius-bottomleft:0;
-	    -moz-border-radius-bottomright:0;
-	    border-bottom-left-radius:0;
-	    border-bottom-right-radius:0;
-	    -webkit-border-bottom-left-radius:0;
-	    -webkit-border-bottom-right-radius:0;
+    font-family:"Courier New", Courier, monospace;
+    font-size:12px;
+    width:14px;
+    padding-right:4px;
+    -moz-border-radius-bottomleft:0;
+    -moz-border-radius-bottomright:0;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+    -webkit-border-bottom-left-radius:0;
+    -webkit-border-bottom-right-radius:0;
 }
 
 /* SIDEBAR */
 
 /* search */
 .side #search {
-	    border:1px solid #eaeaea;
-	    padding:10px;
-	    margin-top:20px;
-	    background-color:#FAFAFA;
+    border:1px solid #eaeaea;
+    padding:10px;
+    margin-top:20px;
+    background-color:#FAFAFA;
 }
 body.res-nightmode #search {
-	    background-color: #AAA;
-	    border-color: #BBB;
+    background-color: #AAA;
+    border-color: #BBB;
 }
 #search input[type=text] {
-	    width:265px;
-	    border:1px solid #DBDADA;
-	    -moz-border-radius:2px;
-	    -webkit-border-radius:2px;
-	    -o-border-radius:2px;
-	    -ms-border-radius:2px;
-	    -khtml-border-radius:2px;
-	    border-radius:2px;
-	    font-size:14px;
-	    font-style:italic;
-	    padding:4px;
+    width:265px;
+    border:1px solid #DBDADA;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    -o-border-radius:2px;
+    -ms-border-radius:2px;
+    -khtml-border-radius:2px;
+    border-radius:2px;
+    font-size:14px;
+    font-style:italic;
+    padding:4px;
 }
 
 /* side */
@@ -119,9 +119,9 @@ body.res-nightmode .side .redditname a { color: #DDD !important; }
 .side h2 {font-size: 16px;}
 .side h3 {font-size: 14px;}
 body.res-nightmode .login-form-side {
-	    background-color: #111 !important;
-	    color: #DDD !important;
-	    border: 1px solid #DDD !important;
+    background-color: #111 !important;
+    color: #DDD !important;
+    border: 1px solid #DDD !important;
 }
 body.res-nightmode .login-form-side #remember-me label { color: #DDD !important; }
 body.res-nightmode .login-form-side #remember-me input { width: auto !important; margin-left: 6px; }
@@ -133,33 +133,33 @@ body.res-nightmode .side .login-form-side .submit .btn { margin: auto; }
 body.res-nightmode .sidebox { padding-left: 0 !important; }
 body.res-nightmode .sidebox.submit { background-image: none !important; }
 body.res-nightmode .sidebox.submit .nub {
-	    height: 3px;
-	    width: 2px;
-	    border-left: 14px solid #393939;
-	    border-top: 14px solid #222;
-	    border-bottom: 14px solid #222;
+    height: 3px;
+    width: 2px;
+    border-left: 14px solid #393939;
+    border-top: 14px solid #222;
+    border-bottom: 14px solid #222;
 }
 body.res-nightmode .sidebox, body.res-nightmode .subredditbox, body.res-nightmode .subreddit-info, body.res-nightmode .raisedbox, body.res-nightmode .login-form-side {
-	    border: 0 !important;
-	    border-radius: 0 !important;
-	    -moz-border-radius: 0 !important;
-	    -webkit-border-radius: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
 }
 body.res-nightmode .sidebox.submit .morelink a { color: #DDD !important; }
 body.res-nightmode .sidebox.submit:hover { background-color: #444 !important; }
  body.res-nightmode .sidebox.submit:hover .nub { border-left-color: #444; }
 .side #search { margin-top:61px; }
 .morelink,.morelink:hover,.side a[href*='/#btn'] {
-	    font-weight:normal;
-	    letter-spacing:0;
-	    background:#449EF8;
-	    border-color:#449EF8;
-	    -moz-border-radius:2px;
-	    -webkit-border-radius:2px;
-	    -o-border-radius:2px;
-	    -ms-border-radius:2px;
-	    -khtml-border-radius:2px;
-	    border-radius:2px;
+    font-weight:normal;
+    letter-spacing:0;
+    background:#449EF8;
+    border-color:#449EF8;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    -o-border-radius:2px;
+    -ms-border-radius:2px;
+    -khtml-border-radius:2px;
+    border-radius:2px;
 }
 .morelink a,.morelink a:hover { color:#FFF; font-family:Verdana, Arial, sans-serif; font-size:16px; }
 .morelink .nub,.morelink:hover .nub { background:url(%%sprites-05%%) 0 0 no-repeat transparent; }
@@ -176,24 +176,24 @@ body.res-nightmode .sidebox.submit:hover { background-color: #444 !important; }
 .content { margin:20px 0 0 20px; }
 .entry { padding: 2px; }
 .link {
-	    overflow:hidden;
-	    margin:0px;
-	    padding:5px;
-	    border:1px solid #EAEAEA;
-	    background-color:#FAFAFA;
+    overflow:hidden;
+    margin:0px;
+    padding:5px;
+    border:1px solid #EAEAEA;
+    background-color:#FAFAFA;
 }
 body.res-nightmode .sitetable .thing.link, body.res-nightmode div#siteTable div[onclick="click_thing(this)"] {
-	    border: 1px solid #4c4c4c !important;
-	    background-color: #333 !important;
+    border: 1px solid #4c4c4c !important;
+    background-color: #333 !important;
 }
 body.res-nightmode .sitetable .thing.link .keyHighlight {
-	    background-color: #363636 !important;
-	    border-color: #666 !important;
-	    outline-color: #666 !important;
+    background-color: #363636 !important;
+    border-color: #666 !important;
+    outline-color: #666 !important;
 }
 body.res-nightmode .midcol {
-	    background-color: #222 !important;
-	    padding: 4px;
+    background-color: #222 !important;
+    padding: 4px;
 }
 .link .rank { display:none; }
 .link.last-clicked { border:1px dashed #EAEAEA; }
@@ -222,26 +222,30 @@ body.res-nightmode .usertext .help-toggle a { color:#444 !important; }
 .link .usertext .md { background-color:#FFF; border:1px solid #EAEAEA; }
 .entry .buttons li a { font-family:verdana, arial, sans-serif; }
 .usertext .help-toggle {
-	    background-color:#999;
-	    border:none;
-	    color:#FFF;
-	    padding:6px;
-	    margin:5px 0;
-	    font-size:13px;
+    background-color:#999;
+    border:none;
+    color:#FFF;
+    padding:6px;
+    margin:5px 0;
+    font-size:13px;
 }
 
 /* MODERATOR SPECIFIC */
 
 /* stylesheet tweaks */
 .stylesheet-customize-container { width: 100%; }
-#subreddit_stylesheet { display: block; overflow:hidden; padding-right: 80px; }
-.sheets { margin:0; }
+#subreddit_stylesheet { display: block; overflow: hidden; padding-right: 80px; }
+.sheets { margin: 0; }
 #stylesheet_contents {
-	    font-family:Consolas, Monaco, monospace;
-	    padding: 12px;
-	    background-color: #222;
-	    color: #ace;
-	    border: 8px solid #222;
+    font-family: Consolas, Monaco, monospace;
+    padding: 12px;
+    background-color: #222;
+    color: #ace;
+    border: 8px solid #222;
+}
+body.res-nightmode #stylesheet_contents {
+    background-color: #111;
+    border-color: #111;
 }
 
 
@@ -264,62 +268,62 @@ body:not(.res-nightmode) .md table tbody { color: #444; }
 .md > ul, .md > ol { border-left: 4px solid #ccc; max-width: 300px; }
 body.res-nightmode .md > ul, body.res-nightmode .md > ol { border-color: #666; }
 .md ul, .md ol {
-	margin: 10px 0px;
-	    padding: 6px;
-	    background-color: #fff;
-	    -moz-border-radius:2px;
-	    -webkit-border-radius:2px;
-	    -o-border-radius:2px;
-	    -ms-border-radius:2px;
-	    -khtml-border-radius:2px;
-	    border-radius:2px;
+    margin: 10px 0px;
+    padding: 6px;
+    background-color: #fff;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    -o-border-radius:2px;
+    -ms-border-radius:2px;
+    -khtml-border-radius:2px;
+    border-radius:2px;
 }
 body.res-nightmode .md ul, body.res-nightmode .md ol { background-color: #444; }
 .md ul { list-style: disc inside; }
 .md ol { list-style: none; }
 .md ul li, .md ol li {
-	    padding: 4px 8px;
-	    -moz-border-radius:2px;
-	    -webkit-border-radius:2px;
-	    -o-border-radius:2px;
-	    -ms-border-radius:2px;
-	    -khtml-border-radius:2px;
-	    border-radius:2px;
+    padding: 4px 8px;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    -o-border-radius:2px;
+    -ms-border-radius:2px;
+    -khtml-border-radius:2px;
+    border-radius:2px;
 }
 .md ul li ul, .md ol li ol { margin: 8px 4px; }
 .md ul li:nth-child(odd), .md ol li:nth-child(odd) { background-color: #f6f6f6; }
 body.res-nightmode .md ul li:nth-child(odd), body.res-nightmode .md ol li:nth-child(odd) { background-color: #222; }
 .md ol { counter-reset: inc 0; }
 .md ol li:before {
-	    counter-increment: inc 1;
-	    content: counter(inc, decimal) '. ';
-	    margin-right: 4px;
-	    color: #999;
+    counter-increment: inc 1;
+    content: counter(inc, decimal) '. ';
+    margin-right: 4px;
+    color: #999;
 }
 
 /* boxes */
 .side blockquote + hr {
-	    border-width:0;
-	    width:0;
-	    background-color:transparent;
-	    margin:20px 0 0;
+    border-width:0;
+    width:0;
+    background-color:transparent;
+    margin:20px 0 0;
 }
 body.res-nightmode .side hr {
-	    border: 0 !important;
-	    border-bottom: 1px solid #000 !important;
+    border: 0 !important;
+    border-bottom: 1px solid #000 !important;
 }
 .side blockquote {
-	    border:0 none;
-	    padding:15px;
-	    margin:0;
-	    border:1px solid #CCC;
-	    background-color:#F5F5F5;
-	    -moz-border-radius:2px;
-	    -webkit-border-radius:2px;
-	    -o-border-radius:2px;
-	    -ms-border-radius:2px;
-	    -khtml-border-radius:2px;
-	    border-radius:2px;
+    border:0 none;
+    padding:15px;
+    margin:0;
+    border:1px solid #CCC;
+    background-color:#F5F5F5;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    -o-border-radius:2px;
+    -ms-border-radius:2px;
+    -khtml-border-radius:2px;
+    border-radius:2px;
 }
 
 .side h4, .side h5, .side h6 { height:0; }
@@ -374,29 +378,29 @@ body.res-nightmode .md h6 + ul li:nth-child(odd), body.res-nightmode .md h6 + ol
 
 /* buttons */
 .btn, button, .side a[href*='/#btn'] {
-	    background-color:#449EF8;
-	    border:none;
-	    color:#FFF;
-	    padding:6px;
-	    margin:5px 5px 5px 0;
-	    cursor:pointer;
-	    font-size:13px;
-	    font-family:arial,helvetica,sans-serif;
-	    -moz-border-radius:2px;
-	    -webkit-border-radius:2px;
-	    -o-border-radius:2px;
-	    -ms-border-radius:2px;
-	    -khtml-border-radius:2px;
-	    border-radius:2px;
+    background-color:#449EF8;
+    border:none;
+    color:#FFF;
+    padding:6px;
+    margin:5px 5px 5px 0;
+    cursor:pointer;
+    font-size:13px;
+    font-family:arial,helvetica,sans-serif;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    -o-border-radius:2px;
+    -ms-border-radius:2px;
+    -khtml-border-radius:2px;
+    border-radius:2px;
 }
 .side a[href*='/#btn'] {
-	    text-align: center;
-	    display: block;
-	    width: auto;
-	    font-weight: normal;
-	    letter-spacing: 0;
-	    line-height: 29px;
-	    margin:10px 0px;
+    text-align: center;
+    display: block;
+    width: auto;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 29px;
+    margin:10px 0px;
 }
 body.res-nightmode .btn, body.res-nightmode button, 
 body.res-nightmode .side a[href*='/#btn'] { color: #444 !important; background-color: #CCC !important; }
@@ -408,92 +412,92 @@ body.res-nightmode .side a[href*='/#btn']:hover { background-color:#DDD !importa
 
 /* code styling */
 .usertext-body pre {
-	    margin:10px 0;
-	    padding:10px;
-	    color: #222 !important;
+    margin:10px 0;
+    padding:10px;
+    color: #222 !important;
 }
 .usertext-body pre, .usertext-body p > code {
-	    background:#f7f7f7;
-	    border:1px solid #ccc;
-	    -moz-border-radius:2px;
-	    -webkit-border-radius:2px;
-	    -o-border-radius:2px;
-	    -ms-border-radius:2px;
-	    -khtml-border-radius:2px;
-	    border-radius:2px;
-	    font-size:11px;
-	    color: #222 !important;
-	    overflow: auto;
+    background:#f7f7f7;
+    border:1px solid #ccc;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    -o-border-radius:2px;
+    -ms-border-radius:2px;
+    -khtml-border-radius:2px;
+    border-radius:2px;
+    font-size:11px;
+    color: #222 !important;
+    overflow: auto;
 }
 .usertext-body code {
-	    color: #222 !important;
-	    font-family:Consolas, Monaco, monospace;
-	    line-height:1.5em;
+    color: #222 !important;
+    font-family:Consolas, Monaco, monospace;
+    line-height:1.5em;
 }
 .usertext-body p > code {
-	    padding:0 3px;
-	    color: #222 !important;
+    padding:0 3px;
+    color: #222 !important;
 }
 
 /* mobile-friendly spoiler tags (credit /u/listen2) */
 a[href='#s'] {
-	    font-size:0;
-	    visibility:hidden;
-	    cursor:default;
-	    display:inline-block;
+    font-size:0;
+    visibility:hidden;
+    cursor:default;
+    display:inline-block;
 }
 a[href='#s']::after {
-	    content:attr(title);
-	    background:#cee3f8;
-	    color:#cee3f8;
-	    font-size:small;
-	    visibility:visible;
+    content:attr(title);
+    background:#cee3f8;
+    color:#cee3f8;
+    font-size:small;
+    visibility:visible;
 }
 body.res-nightmode a[href='#s']::after {
-	    content:attr(title);
-	    background:#666;
-	    color:#666;
-	    font-size:small;
-	    visibility:visible;
+    content:attr(title);
+    background:#666;
+    color:#666;
+    font-size:small;
+    visibility:visible;
 }
 a[href='#s']:hover::after,a[href='#s']:active::after {
-	    color:#000;
-	    background:transparent;
-	    text-decoration:none;
-	    font-size:small;
+    color:#000;
+    background:transparent;
+    text-decoration:none;
+    font-size:small;
 }
 body.res-nightmode a[href='#s']:hover::after, body.res-nightmode a[href='#s']:active::after {
-	    color:#DDD;
-	    background:transparent;
-	    text-decoration:none;
-	    font-size:small;
+    color:#DDD;
+    background:transparent;
+    text-decoration:none;
+    font-size:small;
 }
 
 /* sidebar icons */
 .side a[href*='#icon-'] { color:#000 !important; cursor:default; }
 .side a[href*='#icon-']:hover { text-decoration:none; }
 .side a[href*='#icon-']::before {
-	    display:inline-block;
-	    height:16px; width:16px;
-	    content:'';
-	    margin:0 5px -1px 0;
-	    background: url(%%sprites-05%%) 30px 30px no-repeat;
+    display:inline-block;
+    height:16px; width:16px;
+    content:'';
+    margin:0 5px -1px 0;
+    background: url(%%sprites-05%%) 30px 30px no-repeat;
 }
-.side a[href='#icon-exclamation']::before	{background-position: -16px -32px;}
-.side a[href='#icon-information']::before	{background-position: -54px -51px;}
-.side a[href='#icon-lightbulb']::before		{background-position: -16px -51px;}
-.side a[href='#icon-comments']::before		{background-position: -35px -89px;}
-.side a[href='#icon-unhappy']::before		{background-position: -73px -89px;}
-.side a[href='#icon-check']::before			{background-position: -73px -51px;}
-.side a[href='#icon-clock']::before			{background-position: -35px -51px;}
-.side a[href='#icon-cross']::before			{background-position: -35px -70px;}
-.side a[href='#icon-smile']::before			{background-position: -54px -89px;}
-.side a[href='#icon-error']::before			{background-position: -54px -32px;}
-.side a[href='#icon-note']::before			{background-position: -54px -70px;}
-.side a[href='#icon-star']::before			{background-position: -73px -32px;}
-.side a[href='#icon-help']::before			{background-position: -16px -70px;}
-.side a[href='#icon-time']::before			{background-position: -73px -70px;}
-.side a[href='#icon-bell']::before			{background-position: -35px -32px;}
-.side a[href='#icon-eye']::before			{background-position: -16px -89px;}
+.side a[href='#icon-exclamation']::before{background-position: -16px -32px;}
+.side a[href='#icon-information']::before{background-position: -54px -51px;}
+.side a[href='#icon-lightbulb']::before{background-position: -16px -51px;}
+.side a[href='#icon-comments']::before{background-position: -35px -89px;}
+.side a[href='#icon-unhappy']::before{background-position: -73px -89px;}
+.side a[href='#icon-check']::before{background-position: -73px -51px;}
+.side a[href='#icon-clock']::before{background-position: -35px -51px;}
+.side a[href='#icon-cross']::before{background-position: -35px -70px;}
+.side a[href='#icon-smile']::before{background-position: -54px -89px;}
+.side a[href='#icon-error']::before{background-position: -54px -32px;}
+.side a[href='#icon-note']::before{background-position: -54px -70px;}
+.side a[href='#icon-star']::before{background-position: -73px -32px;}
+.side a[href='#icon-help']::before{background-position: -16px -70px;}
+.side a[href='#icon-time']::before{background-position: -73px -70px;}
+.side a[href='#icon-bell']::before{background-position: -35px -32px;}
+.side a[href='#icon-eye']::before{background-position: -16px -89px;}
 
 /* SUBREDDIT-SPECIFIC STYLES - add you own styles below without modifying the code above.*/
