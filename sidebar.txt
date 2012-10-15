@@ -1,6 +1,6 @@
-#v4
+#v5.1
 
-##### [](#e)
+##### [](#h5-yellow)
 > # [What is it?](#icon-lightbulb)
 > This is a CSS theme to style subreddits. It was made for two purposes: to make a subreddit more new-user-friendly, and to give more visibility to the submit button. 
 
@@ -19,20 +19,10 @@ It uses  most of Reddit's default font sizes, colors, and the silk icons collect
 
 The idea was to make a theme that doesn't clash with the frontpage, but tried to improve readability and general space division.
 
-####[](#e)
+####[](#h4-green)
 > ##[Currently used in:](#icon-check)
 
-> * **/r/techsupport**
-
-> * **/r/bans**
-
-> * **/r/spain**
-
-> * **/r/es**
-
-> * **/r/FreewareIndex**
-
-> * **/r/vaultshow**
+> /r/AskModerators, /r/InternetAMA, /r/techsupport, /r/redditores, /r/patientgamers, /r/bans, /r/spain, /r/es, /r/FreewareIndex, /r/vaultshow, /r/DeltaMinecraft, /r/weather
 
 *********************
 
@@ -54,30 +44,30 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 
 *****************************
 
-###### [](#e)
+###### [](#h6-red)
 > You can change a box's color by placing a specific empty header type right before making the blockquote.
 
 > To make this box **red**, an empty **H6** element is used. The code looks like this:
 
->`###### [](#e)`
+>`###### [](#h6-red)`
 
 >`> This is a box.`
 
 ********************************
 
-##### [](#e)
+##### [](#h5-yellow)
 > To make a **yellow** box, use an empty **H5** element as we did before:
 
->`##### [](#e)`
+>`##### [](#h5-yellow)`
 
 >`> This is a box`
 
 ********************************
 
-#### [](#e)
+#### [](#h4-green)
 > To make a **green** box, use an empty **H4** element as we did before:
 
->`#### [](#e)`
+>`#### [](#h4-green)`
 
 >`> This is a box`
 
@@ -93,7 +83,7 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 
 **************************
 
-###### [](#e)
+###### [](#h6-red)
 > #[Title with an icon](#icon-exclamation)
 > This box starts with an H2 element, and has an icon. The icon is added to left of any sidebar element by linking it to a specific code:  
 
@@ -112,7 +102,7 @@ Normal text can be added after a separating horizontal line, and it will appear 
 > # [Final Notes](#icon-information)
 > You can play around making boxes within boxes or adding any markup withing these blockquote boxes. 
 
-> #### [](#e)
+> #### [](#h4-green)
 > > ##[Contribute!](#icon-smile)
 > > * If you find any bugs or problems with this theme, be sure to ask here.
 > > * I'll soon set up an integrated Wiki page to make setting it all up easier to understand.
