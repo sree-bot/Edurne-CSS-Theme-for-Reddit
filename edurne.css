@@ -278,7 +278,7 @@ body.res-nightmode .md table td, body.res-nightmode .md table th { border-color:
 body:not(.res-nightmode) .md table tbody { color: #444; }
 
 /* lists */
-.md > ul, .md > ol { border-left: 4px solid #ccc; max-width: 300px; }
+.md > ul, .md > ol { border-left: 4px solid #ccc; }
 body.res-nightmode .md > ul, body.res-nightmode .md > ol { border-color: #666; }
 
 .md ul, .md ol {
