@@ -140,11 +140,8 @@ body.res-nightmode .sidebox { padding-left: 0 !important; }
 body.res-nightmode .sidebox.submit { background-image: none !important; }
 
 body.res-nightmode .sidebox.submit .nub {
-    height: 3px;
-    width: 2px;
-    border-left: 14px solid #393939;
-    border-top: 14px solid #222;
-    border-bottom: 14px solid #222;
+    background: #222;
+    border-left-color: 24px solid #393939;
 }
 body.res-nightmode .sidebox, body.res-nightmode .subredditbox, body.res-nightmode .subreddit-info, body.res-nightmode .raisedbox, body.res-nightmode .login-form-side {
     border: 0 !important;
@@ -161,17 +158,34 @@ body.res-nightmode .sidebox.submit:hover .nub { border-left-color: #444; }
     font-weight:normal;
     letter-spacing:0;
     background:#449EF8;
-    border-color:#449EF8;
+    border: none;
     -moz-border-radius:2px;
     -webkit-border-radius:2px;
     -o-border-radius:2px;
     -ms-border-radius:2px;
     -khtml-border-radius:2px;
     border-radius:2px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
 }
 
 .morelink a,.morelink a:hover { color:#FFF; font-family:Verdana, Arial, sans-serif; font-size:16px; }
-.morelink .nub,.morelink:hover .nub { background:url(%%sprites-05%%) 0 0 no-repeat transparent; }
+.morelink .nub,.morelink:hover .nub {
+    top: 0;
+    right: -25px;
+    height: 0;
+    width: 0;
+    background: white;
+    border: 24px solid #449EF8;
+    border-top-width: 15px;
+    border-top-color: transparent;
+    border-bottom-width: 15px;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+
+.morelink:hover .nub { border-left-color: #56A6F7 }
 .disabled .morelink a,.disabled .morelink a:hover { cursor:default; color:#AAA; }
 .morelink:hover { background-color:#56a6f7; border-color:#56a6f7; }
 .disabled .morelink,.disabled .morelink:hover { background:#f5f5f5; border-color:#f5f5f5; }
