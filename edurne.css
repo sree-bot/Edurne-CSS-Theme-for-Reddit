@@ -141,7 +141,7 @@ body.res-nightmode .sidebox.submit { background-image: none !important; }
 
 body.res-nightmode .sidebox.submit .nub {
     background: #222;
-    border-left-color: 24px solid #393939;
+    border-left: 24px solid #393939;
 }
 body.res-nightmode .sidebox, body.res-nightmode .subredditbox, body.res-nightmode .subreddit-info, body.res-nightmode .raisedbox, body.res-nightmode .login-form-side {
     border: 0 !important;
