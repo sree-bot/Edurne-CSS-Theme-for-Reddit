@@ -527,3 +527,9 @@ body.res-nightmode a[href='#s']:hover::after, body.res-nightmode a[href='#s']:ac
 .side a[href='#icon-eye']::before           {background-position: -16px -89px;}
 
 /* SUBREDDIT-SPECIFIC STYLES - add you own styles below without modifying the code above.*/
+
+/* Style the side boxes so that they have the same width */
+.side .spacer .sidecontentbox{
+  width: 280px;
+  margin: 10px 0px 10px 10px;
+}
