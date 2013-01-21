@@ -6,7 +6,7 @@ A CSS theme for styling subreddits in Reddit.com
 Changes that will be done
 
 
-- Reduce/Remove padding (lots of space wastage). Valid for all elements of the theme
+- Reduce/Remove padding (lots of space wastage). Valid for all elements of the theme. - WIP
 - Reformat tab menu bar to match default style - DONE
 - Font sizes in sidebar - DONE
 - Change size of mod boxes to match the width of other elements in the theme - DONE
