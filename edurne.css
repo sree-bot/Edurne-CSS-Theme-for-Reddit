@@ -212,7 +212,6 @@ body.res-nightmode .midcol {
     padding: 4px;
 }
 
-.link .rank { display:none; }
 .link.last-clicked { border:1px dashed #EAEAEA; }
 body.res-nightmode .link.last-clicked { border-color: #666; }
 .linklisting > .clearleft { margin:5px; }
