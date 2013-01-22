@@ -11,7 +11,7 @@ Changes that will be done
 - Font sizes in sidebar - DONE
 - Change size of mod boxes to match the width of other elements in the theme - DONE
 - Change font size header-bottom-right - DONE
-- Enable link rank - DONE
+- Enable link rank - NOT DONE - looks ugly with rank
 - TBD
 
 Changes that will be considered
