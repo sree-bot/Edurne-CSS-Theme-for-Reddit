@@ -1,4 +1,4 @@
-/* ==Edurne Reddit CSS Theme v5.2 - (http://www.reddit.com/r/edurne/)== */
+/* ==Edurne Reddit CSS Theme v5.3 - (http://www.reddit.com/r/edurne/)== */
 
 /* GENERAL */
 body { position:relative; font-family:arial, helvetica, sans-serif; }
@@ -130,7 +130,7 @@ body.res-nightmode .side .login-form-side .submit { padding: 4px; background-col
 body.res-nightmode .side .login-form-side .submit .btn { margin: auto; }
 
 /* submit */
-.sidebox.submit { position:absolute; top:95px; width:300px; }
+.sidebox.submit { width:300px; }
 body.res-nightmode .sidebox { padding-left: 0 !important; }
 body.res-nightmode .sidebox.submit { background-image: none !important; }
 
@@ -147,7 +147,6 @@ body.res-nightmode .sidebox, body.res-nightmode .subredditbox, body.res-nightmod
 body.res-nightmode .sidebox.submit .morelink a { color: #DDD !important; }
 body.res-nightmode .sidebox.submit:hover { background-color: #444 !important; }
 body.res-nightmode .sidebox.submit:hover .nub { border-left-color: #444; }
-.side #search { margin-top:61px; }
 
 .morelink,.morelink:hover,.side a[href*='/#btn'] {
     font-weight:normal;
