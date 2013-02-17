@@ -181,7 +181,7 @@ body.res-nightmode .sidebox.submit:hover .nub { border-left-color: #444; }
 .morelink:hover .nub { border-left-color: #56A6F7 }
 .disabled .morelink a,.disabled .morelink a:hover { cursor:default; color:#AAA; }
 .morelink:hover { background-color:#56a6f7; border-color:#56a6f7; }
-.disabled .morelink,.disabled .morelink:hover { background:#f5f5f5; border-color:#f5f5f5; }
+.disabled .morelink,.disabled .morelink:hover { background:#f9f9f9; border-color:#f9f9f9; }
 .disabled .morelink .nub,.disabled .morelink:hover .nub { background:url(%%sprites-05%%) 0 0 no-repeat transparent; }
 
 /* CONTENT */
@@ -278,7 +278,7 @@ body.res-nightmode .md table { border-color: #666; }
 .md table * { border: 0; }
 body.res-nightmode .md table * { color: #ddd; }
 .md table th { text-align: center; }
-.md table tr:nth-child(even), .md table thead { background-color: #f6f6f6; }
+.md table tr:nth-child(even), .md table thead { background-color: #fafafa; }
 body.res-nightmode .md table tr:nth-child(even), body.res-nightmode .md table thead { background-color: #444; }
 .md table td, .md table th { border-right: 1px solid #ccc; padding: 4px 8px; }
 body.res-nightmode .md table td, body.res-nightmode .md table th { border-color: #666; }
@@ -315,7 +315,7 @@ body.res-nightmode .md ul, body.res-nightmode .md ol { background-color: #444; }
 }
 
 .md ul li ul, .md ol li ol { margin: 8px 4px; }
-.md ul li:nth-child(odd), .md ol li:nth-child(odd) { background-color: #f6f6f6; }
+.md ul li:nth-child(odd), .md ol li:nth-child(odd) { background-color: #fafafa; }
 body.res-nightmode .md ul li:nth-child(odd), body.res-nightmode .md ol li:nth-child(odd) { background-color: #222; }
 .md ol { counter-reset: inc 0; }
 
@@ -342,7 +342,7 @@ body.res-nightmode .side hr {
     padding:10px;
     margin:0;
     border:1px solid #CCC;
-    background-color:#F5F5F5;
+    background-color:#F9F9F9;
     -moz-border-radius:2px;
     -webkit-border-radius:2px;
     -o-border-radius:2px;
@@ -534,3 +534,6 @@ body.res-nightmode a[href='#s']:hover::after, body.res-nightmode a[href='#s']:ac
   width: 280px;
   margin: 10px 0px 10px 10px;
 }
+
+/* Style the ad box so that it has the same width too */
+/* TODO */
