@@ -105,7 +105,7 @@ body.res-nightmode #search {
 .side .md { overflow:hidden; }
 .titlebox { padding:0 10px; }
 .titlebox .bottom { display:none; }
-.side .titlebox > h1 { font-size:34px; }
+.side .titlebox > h1 { font-size:34px; letter-spacing: -1px;}
 .linkinfo { padding:15px; border:none; background-color:#CEE3F8; }
 body.res-nightmode .side .redditname a { color: #DDD !important; }
 .sidebox.submit .spacer, .sidebox.create { display:none; }
