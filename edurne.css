@@ -36,7 +36,7 @@ body.res-nightmode .pagename a { font-size: 18px !important; }
 #header #sr-header-area #RESShortcutsAdd, #header #sr-header-area #RESShortcutsTrash { background-color:#ececec; }
 body.res-nightmode #sr-header-area, body.res-nightmode #sr-more-link { background-color: #ececec !important; }
 #sr-header-area #RESShortcutsEditContainer, #sr-more-link { border-right:20px solid #ececec; font-weight:bolder; }
-#RESShortcutsEditContainer { right: -15px; }
+#sr-header-area #RESShortcutsEditContainer { right: -15px; }
 
 #header-bottom-right {
     font-size: 11px;
