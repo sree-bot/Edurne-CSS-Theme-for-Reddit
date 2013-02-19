@@ -17,14 +17,14 @@ body > .content { overflow:hidden; }
 
 /* HEADER */
 #sr-header-area {
-    background-color:#c6daed;
+    background-color:#ececec;
     text-transform:lowercase;
-    border-bottom:3px solid #c2d6e9;
+    border-bottom:1px solid #6c6c6c;
     font-size:100%;
     font-family:Verdana, arial, sans-serif;
 }
 
-#sr-header-area a { color:#54708b; }
+#sr-header-area a { color:#000000; }
 body.res-nightmode #header { border-color: #DDF; }
 .tabmenu { font-size:14px; }
 
@@ -33,13 +33,14 @@ body.res-nightmode #header { border-color: #DDF; }
 body.res-nightmode .pagename a { font-size: 18px !important; }
 #sr-header-area .dropdown.srdrop, #sr-header-area#srLeftContainer { padding-left:21px; }
 #sr-more-link, #header #sr-header-area #RESShortcutsEditContainer, #header #sr-header-area #RESShortcutsRight, #header #sr-header-area #RESShortcutsLeft, 
-#header #sr-header-area #RESShortcutsAdd, #header #sr-header-area #RESShortcutsTrash { background-color:#c6daed; }
-body.res-nightmode #sr-header-area, body.res-nightmode #sr-more-link { background-color: #c6daed !important; }
-#sr-header-area #RESShortcutsEditContainer, #sr-more-link { border-right:20px solid #c6daed; font-weight:bolder; }
+#header #sr-header-area #RESShortcutsAdd, #header #sr-header-area #RESShortcutsTrash { background-color:#ececec; }
+body.res-nightmode #sr-header-area, body.res-nightmode #sr-more-link { background-color: #ececec !important; }
+#sr-header-area #RESShortcutsEditContainer, #sr-more-link { border-right:20px solid #ececec; font-weight:bolder; }
+#RESShortcutsEditContainer { right: -15px; }
 
 #header-bottom-right {
     font-size: 11px;
-    right:20px;
+    right:0px;
     background-color:#deeaf6;
     -moz-border-radius:0;
     -webkit-border-radius:0;
@@ -530,10 +531,24 @@ body.res-nightmode a[href='#s']:hover::after, body.res-nightmode a[href='#s']:ac
 /* SUBREDDIT-SPECIFIC STYLES - add you own styles below without modifying the code above.*/
 
 /* Style the side boxes so that they have the same width */
-.side .spacer .sidecontentbox{
+.side .spacer .sidecontentbox {
   width: 280px;
   margin: 10px 0px 10px 10px;
 }
 
+/* Change font size of "message the moderators" */
+.sidecontentbox a.helplink {
+  margin-top: 0px;
+  font-size: 12px;
+}
+
 /* Style the ad box so that it has the same width too */
-/* TODO */
+/* NOT WORKING - TODO */
+#ad a img {
+  width: 280px;
+}
+
+/* Capitalize india */
+.side .titlebox h1 {
+  text-transform: capitalize;
+}
