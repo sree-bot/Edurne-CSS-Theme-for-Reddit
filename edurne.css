@@ -551,3 +551,8 @@ body.res-nightmode a[href='#s']:hover::after, body.res-nightmode a[href='#s']:ac
 .side .titlebox h1 {
   text-transform: capitalize;
 }
+
+/* Fix the annoying li bug */
+.md li > p { 
+    display:inline; 
+}
